@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<headYou may only modify the following files: main.js, RecipeCard.js, index.html in this portion of the lab
+
+	For this section, we are going to make a functional <form> so that we can add recipes to our array in localStorage, and also have the ability to clear all of localStorage.
+	
+	 
+	
+	index.html
+	Modify this file. The only modification to this file that we'll make is to remove the class="hidden" from the <form> element so that it will render on the screen.
+	
+	 
+	
+	assets/scripts/main.js
+	Modify this file. This file will now also be adding some event listeners to the <form> so that we can add to our recipes. For the EXPLORE section, you will need to implement all of the numbers starting with B that have a TODO next to them. This file should contain numbers B1 through B13.
+	
+	 
+	
+	NOTE: The imgSrc property takes in an image URL. You can point this to any image URL you like, though some websites may have headers that block you from accessing that URL on page load. Probably for the best that you download any 3rd party images you want to use for testing and place them next to the included images.>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +34,7 @@
 			<!-- Add Recipes Here -->
 		</main>
 		<!-- For the Explore section - Remove "hidden" class before beginning -->
-		<form id="new-recipe" class="hidden">
+		<form id="new-recipe">
 			<fieldset>
 				<legend>Image:</legend>
 				<label for="imgSrc">
